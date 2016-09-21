@@ -414,7 +414,7 @@
   <string name="clock_font_size_22">22</string>
   <string name="clock_font_size_23">23</string>
   <!--Performance/Kernel Aduitor-->
-  <string name="kernel_aduitor">Leistung</string>
+  <string name="kernel_aduitor">Kernel Konfiguration</string>
   <!-- Lock screen rotation -->
   <string name="display_lockscreen_rotation_title">Sperrbildschirm</string>
   <!-- Lock screen settings -->
