@@ -61,12 +61,12 @@
         android:key="advanced_reboot"
         android:title="@string/advanced_reboot_title"
         android:summary="@string/advanced_reboot_summary" />
-
-    <com.android.settings.cyanogenmod.SecureSettingSwitchPreference
+		
+	<com.android.settings.cyanogenmod.SecureSettingSwitchPreference
         android:key="advanced_reboot_oneclick"
         android:title="@string/advanced_reboot_oneclick"
         android:summary="@string/advanced_reboot_oneclick_summary"
-        android:dependency="advanced_reboot" />
+        android:dependency="advanced_reboot" />	
 
     </PreferenceCategory>
 
@@ -273,13 +273,6 @@
             android:summary="@string/volume_answer_call_summary"
             android:defaultValue="false" />
 
-        <PreferenceScreen
-            android:key="vol_steps"
-            android:fragment="com.android.settings.rr.fragments.VolumeStepsFragment"
-            android:title="@string/volume_steps_fragment_title"
-            android:summary="@string/volume_steps_summary" />
-
     </PreferenceCategory>
 
 </PreferenceScreen>
-
