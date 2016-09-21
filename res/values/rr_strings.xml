@@ -98,6 +98,14 @@
 	<string name="features_unknown">Unknown</string>
 	<string name="features_version">1.0</string>
 	
+	<!--Embedded AudioFX-->
+        <string name="audiofx_settings_title">AudioFX</string>
+        <string name="audiofx_summary">AudioFX Access</string>
+    
+        <!--Embedded Viper4Android-->
+        <string name="equalizer_settings_title">Viper4Android</string>
+        <string name="equalizer_settings">Viper4Android Access</string>
+	
 	<!-- Heads Up button -->
 	<string name="enable_headsup_button_extended_statusbar_title">Extended statusbar button</string>
 	<string name="enable_headsup_button_extended_statusbar_summary">Enable/Disable action for the heads up button in the expanded statusbar area</string>
@@ -156,7 +164,7 @@
 	<string name="reset_android_title">Android default</string>
 	<string name="reset_darkkat_title">Customized palette</string>
 	<string name="default_string">Default</string>
-<string name="favorites_title">Favorites</string>
+        <string name="favorites_title">Favorites</string>
         <string name="hide_favorites_title">Hide favorites</string>
         <string name="show_favorites_title">Show favorites</string>
         <string name="hide_help_title">Hide help</string>
