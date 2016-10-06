@@ -140,7 +140,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         setValueSummary(KEY_BASEBAND_VERSION, "gsm.version.baseband");
         setValueSummary(KEY_EQUIPMENT_ID, PROPERTY_EQUIPMENT_ID);
         setStringSummary(KEY_DEVICE_MODEL, Build.MODEL);
-        setStringSummary(KEY_BUILD_NUMBER, "Resurrection Remix Marshmallow 6.0.1_r68 - MTC20L");
+        setStringSummary(KEY_BUILD_NUMBER, "Resurrection Remix Marshmallow 6.0.1_r72 - M4B30X");
         findPreference(KEY_BUILD_NUMBER).setEnabled(true);
         final Preference kernelPref = findPreference(KEY_KERNEL_VERSION);
         kernelPref.setEnabled(true);
